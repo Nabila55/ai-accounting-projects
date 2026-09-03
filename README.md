@@ -2,57 +2,83 @@
 
 
 
-&#x20;  A collection of full-stack tools combining accounting knowledge with
+A collection of full-stack tools combining accounting knowledge with AI,
 
-&#x20;  AI, built to solve real recurring problems for small businesses,
+built to solve real recurring problems for small businesses, startups,
 
-&#x20;  startups, and e-commerce sellers.
-
-
-
-&#x20;  ## Projects
+and e-commerce sellers.
 
 
 
-&#x20;  ### 1. AI Expense Categorization Tool
-
-&#x20;  Automatically categorizes business expenses from a CSV using Claude.
-
-&#x20;  \[→ /expense-categorizer](./expense-categorizer)
+\## 🚀 Live Demos
 
 
 
-&#x20;  ### 2. Bank Reconciliation \& Month-End Close Assistant
+| Project | Try it live | Source code |
 
-&#x20;  Matches bank statements to the general ledger and flags discrepancies.
+|---|---|---|
 
-&#x20;  \[→ /bank-reconciler](./bank-reconciler)
+| AI Expense Categorization Tool | \[ai-accounting-projects.vercel.app](https://ai-accounting-projects.vercel.app) | \[/expense-categorizer](./expense-categorizer) |
 
+| Bank Reconciliation \& Month-End Close Assistant | \[ai-accounting-projects-4mx1.vercel.app](https://ai-accounting-projects-4mx1.vercel.app) | \[/bank-reconciler](./bank-reconciler) |
 
+| AI General Ledger Analyzer | \[ai-accounting-projects-2g77.vercel.app](https://ai-accounting-projects-2g77.vercel.app) | \[/gl-analyzer](./gl-analyzer) |
 
-&#x20;  ### 3. AI General Ledger Analyzer
-
-&#x20;  Flags anomalies, builds variance analysis, and writes an executive
-
-&#x20;  summary — reviewing a ledger the way a controller would.
-
-&#x20;  \[→ /gl-analyzer](./gl-analyzer)
+| Multi-Channel Payout Reconciler | \[ai-accounting-projects-26sz.vercel.app](https://ai-accounting-projects-26sz.vercel.app) | \[/payout-reconciler](./payout-reconciler) |
 
 
 
-&#x20;  ### 4. Multi-Channel Payout Reconciler
+\*(Note: the free hosting tier means the backend may take 30-60 seconds
 
-&#x20;  Matches e-commerce orders (Shopify, Stripe, PayPal, Amazon) to their
+to respond on the very first request if it's been idle — that's normal,
 
-&#x20;  payouts and checks whether platform fees actually make sense.
-
-&#x20;  \[→ /payout-reconciler](./payout-reconciler)
+not a bug. Give it a moment on first load.)\*
 
 
 
-&#x20;  ---
+\## Projects
 
-&#x20;  Built by Nabila Sandra — accounting \& finance background, using cloud and AI
 
-&#x20;  as a differentiator, not a pivot.
+
+\### 1. AI Expense Categorization Tool
+
+Automatically categorizes business expenses from a CSV using Claude.
+
+\[→ Live demo](https://ai-accounting-projects.vercel.app) · \[→ Code](./expense-categorizer)
+
+
+
+\### 2. Bank Reconciliation \& Month-End Close Assistant
+
+Matches bank statements to the general ledger and flags discrepancies.
+
+\[→ Live demo](https://ai-accounting-projects-4mx1.vercel.app) · \[→ Code](./bank-reconciler)
+
+
+
+\### 3. AI General Ledger Analyzer
+
+Flags anomalies, builds variance analysis, and writes an executive
+
+summary — reviewing a ledger the way a controller would.
+
+\[→ Live demo](https://ai-accounting-projects-2g77.vercel.app) · \[→ Code](./gl-analyzer)
+
+
+
+\### 4. Multi-Channel Payout Reconciler
+
+Matches e-commerce orders (Shopify, Stripe, PayPal, Amazon) to their
+
+payouts and checks whether platform fees actually make sense.
+
+\[→ Live demo](https://ai-accounting-projects-26sz.vercel.app) · \[→ Code](./payout-reconciler)
+
+
+
+\---
+
+Built by Sandra — accounting \& finance background, using cloud and AI
+
+as a differentiator, not a pivot.
 
