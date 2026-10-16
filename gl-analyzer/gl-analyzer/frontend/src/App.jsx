@@ -114,9 +114,9 @@ export default function App() {
               <div className="rounded-xl bg-panel border border-brand/15 p-4 flex items-start gap-3 mb-6">
                 <Info className="w-5 h-5 text-brand shrink-0 mt-0.5" />
                 <p className="text-sm text-ink">
-                  <span className="font-semibold">Demo mode:</span> the summary and chat use
-                  free template/pattern matching, not real AI reasoning. Add a funded Anthropic
-                  API key to your backend's <code className="bg-white px-1 py-0.5 rounded border border-brand/10 text-xs">.env</code> to switch on full AI analysis.
+                  <span className="font-semibold">Public demo:</span> the flagged entries and
+                  variances are calculated in full. The written summary and the chat run in a
+                  lighter, template-based mode here.
                 </p>
               </div>
             )}

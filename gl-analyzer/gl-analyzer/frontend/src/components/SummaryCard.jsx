@@ -6,7 +6,7 @@ export default function SummaryCard({ summary, mode }) {
       <div className="flex items-center gap-2 mb-2">
         <Sparkles className="w-4.5 h-4.5 text-brand" />
         <p className="font-display font-semibold text-ink">
-          {mode === "demo" ? "Month-End Summary (template-based, demo mode)" : "Month-End Summary — AI-generated"}
+          {mode === "demo" ? "Month-End Summary" : "Month-End Summary — AI-generated"}
         </p>
       </div>
       <p className="text-sm text-ink leading-relaxed">{summary}</p>

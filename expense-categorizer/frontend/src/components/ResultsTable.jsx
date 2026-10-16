@@ -59,7 +59,9 @@ export default function ResultsTable({ transactions }) {
     });
   }, [transactions, query, categoryFilter]);
 
-  const totalSpend = filtered.reduce((sum, t) => sum + t.amount, 0);
+  // Income and spend together, so this is a net figure, not total spend
+  // (that headline number sits in the summary cards above).
+  const netTotal = filtered.reduce((sum, t) => sum + t.amount, 0);
 
   const handleDownload = () => {
     // Downloads ALL categorized transactions, not just the filtered view —
@@ -81,7 +83,8 @@ export default function ResultsTable({ transactions }) {
             {transactions.length} expenses categorized
           </h2>
           <p className="text-sm text-muted font-mono">
-            Showing total: {totalSpend.toLocaleString(undefined, { style: "currency", currency: "USD" })}
+            Net of rows shown (income less spend):{" "}
+            {netTotal.toLocaleString(undefined, { style: "currency", currency: "USD" })}
           </p>
         </div>
         <button
